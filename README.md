@@ -1,5 +1,6 @@
 Refresh bar－a pullup-refreshing table view component for iOS
-=============================================================Features--------* prompt when pull up 
+=============================================================
+Features--------* prompt when pull up 
 
 ![screenshot](https://github.com/kmyhy/RefreshBar/raw/master/images/refresh_bar_01.png)* distinguish “refresh” guesture when continue to pull up 
 
