@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2657BB02154AD9A6004535BE /* RefreshBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2657BB00154AD9A6004535BE /* RefreshBar.m */; };
-		2657BB03154AD9A6004535BE /* RefreshBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2657BB01154AD9A6004535BE /* RefreshBar.xib */; };
 		2657BB0B154AD9FE004535BE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2657BB06154AD9FE004535BE /* TableViewController.m */; };
 		2657BB0C154AD9FE004535BE /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2657BB07154AD9FE004535BE /* TableViewController.xib */; };
-		2670A56F154BFAAE003D65EE /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2670A56D154BFAAE003D65EE /* grayArrow.png */; };
-		2670A570154BFAAE003D65EE /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2670A56E154BFAAE003D65EE /* whiteArrow.png */; };
+		265F63F015A6BC2F009C39F6 /* RefreshBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 265F63EB15A6BC2F009C39F6 /* RefreshBar.m */; };
+		265F63F115A6BC2F009C39F6 /* RefreshBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265F63EC15A6BC2F009C39F6 /* RefreshBar.xib */; };
+		265F63F215A6BC2F009C39F6 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 265F63EE15A6BC2F009C39F6 /* grayArrow.png */; };
+		265F63F315A6BC2F009C39F6 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 265F63EF15A6BC2F009C39F6 /* whiteArrow.png */; };
 		26EB90FB1537F95B0037EB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EB90FA1537F95B0037EB76 /* UIKit.framework */; };
 		26EB90FD1537F95C0037EB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EB90FC1537F95B0037EB76 /* Foundation.framework */; };
 		26EB90FF1537F95C0037EB76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EB90FE1537F95C0037EB76 /* CoreGraphics.framework */; };
@@ -23,14 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2657BAFF154AD9A6004535BE /* RefreshBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshBar.h; sourceTree = "<group>"; };
-		2657BB00154AD9A6004535BE /* RefreshBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshBar.m; sourceTree = "<group>"; };
-		2657BB01154AD9A6004535BE /* RefreshBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshBar.xib; sourceTree = "<group>"; };
 		2657BB05154AD9FE004535BE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		2657BB06154AD9FE004535BE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		2657BB07154AD9FE004535BE /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
-		2670A56D154BFAAE003D65EE /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
-		2670A56E154BFAAE003D65EE /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		265F63EA15A6BC2F009C39F6 /* RefreshBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshBar.h; path = "../../../../../../Users/km-cn/RefreshBar/RefreshBar/RefreshBar.h"; sourceTree = "<group>"; };
+		265F63EB15A6BC2F009C39F6 /* RefreshBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshBar.m; path = "../../../../../../Users/km-cn/RefreshBar/RefreshBar/RefreshBar.m"; sourceTree = "<group>"; };
+		265F63EC15A6BC2F009C39F6 /* RefreshBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RefreshBar.xib; path = "../../../../../../Users/km-cn/RefreshBar/RefreshBar/RefreshBar.xib"; sourceTree = "<group>"; };
+		265F63EE15A6BC2F009C39F6 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		265F63EF15A6BC2F009C39F6 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
 		26EB90F61537F95B0037EB76 /* ProgressiveRefreshTableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressiveRefreshTableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EB90FA1537F95B0037EB76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26EB90FC1537F95B0037EB76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		2657BAFE154AD9A5004535BE /* RefreshBar */ = {
 			isa = PBXGroup;
 			children = (
-				2657BAFF154AD9A6004535BE /* RefreshBar.h */,
-				2657BB00154AD9A6004535BE /* RefreshBar.m */,
-				2657BB01154AD9A6004535BE /* RefreshBar.xib */,
-				2670A56C154BFAAE003D65EE /* resources */,
+				265F63EA15A6BC2F009C39F6 /* RefreshBar.h */,
+				265F63EB15A6BC2F009C39F6 /* RefreshBar.m */,
+				265F63EC15A6BC2F009C39F6 /* RefreshBar.xib */,
+				265F63ED15A6BC2F009C39F6 /* resources */,
 			);
 			path = RefreshBar;
 			sourceTree = "<group>";
@@ -80,13 +80,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		2670A56C154BFAAE003D65EE /* resources */ = {
+		265F63ED15A6BC2F009C39F6 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				2670A56D154BFAAE003D65EE /* grayArrow.png */,
-				2670A56E154BFAAE003D65EE /* whiteArrow.png */,
+				265F63EE15A6BC2F009C39F6 /* grayArrow.png */,
+				265F63EF15A6BC2F009C39F6 /* whiteArrow.png */,
 			);
-			path = resources;
+			name = resources;
+			path = "../../../../../../Users/km-cn/RefreshBar/RefreshBar/resources";
 			sourceTree = "<group>";
 		};
 		26EB90EB1537F95B0037EB76 = {
@@ -192,10 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26EB91051537F95C0037EB76 /* InfoPlist.strings in Resources */,
-				2657BB03154AD9A6004535BE /* RefreshBar.xib in Resources */,
 				2657BB0C154AD9FE004535BE /* TableViewController.xib in Resources */,
-				2670A56F154BFAAE003D65EE /* grayArrow.png in Resources */,
-				2670A570154BFAAE003D65EE /* whiteArrow.png in Resources */,
+				265F63F115A6BC2F009C39F6 /* RefreshBar.xib in Resources */,
+				265F63F215A6BC2F009C39F6 /* grayArrow.png in Resources */,
+				265F63F315A6BC2F009C39F6 /* whiteArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +209,8 @@
 			files = (
 				26EB91071537F95C0037EB76 /* main.m in Sources */,
 				26EB910B1537F95C0037EB76 /* AppDelegate.m in Sources */,
-				2657BB02154AD9A6004535BE /* RefreshBar.m in Sources */,
 				2657BB0B154AD9FE004535BE /* TableViewController.m in Sources */,
+				265F63F015A6BC2F009C39F6 /* RefreshBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
