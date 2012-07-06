@@ -67,8 +67,8 @@
 }
 #pragma facilitated methods
 // set location of the refresh bar to relevant y coordinate
--(void)setLocationY:(float)y{
-    y=MAX(y, self.frame.size.height);// 保证refresh bar的位置始终在scroll View最下方
+-(void)setLocationY:(UIScrollView*)scrollView{
+    float y=MAX(scrollView.contentSize.height, scrollView.frame.size.height);
     self.frame=CGRectOffset(self.frame, 0, y-self.frame.origin.y);
 }
 // compute visibile height of the refresh bar 
@@ -145,7 +145,7 @@
                 [self setStatus:kRefreshBarStatusPulling];
             }
         }
-        [self setLocationY:scrollView.contentSize.height];
+        [self setLocationY:scrollView];
 		// to void the refresh bar continue to be kRefreshBarStatusPulling status 
 		if (scrollView.contentInset.bottom != 0) {
 			scrollView.contentInset = UIEdgeInsetsZero;

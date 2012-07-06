@@ -59,6 +59,6 @@ enum kRefreshBarStatus{
 -(float)barOffsetY:(UIScrollView*)scrollView;
 
 -(BOOL)isPullUpEnd:(UIScrollView*)scrollView;
--(void)setLocationY:(float)y;
+-(void)setLocationY:(UIScrollView*)scrollView;
 -(void)updateLastDate;
 @end
